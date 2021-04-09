@@ -3,7 +3,8 @@ package test;
 /**
  * @ClassName: JavaVMStackOOM
  * @Description: TODO 内存溢出
- * 每个线程分配到的栈内存越大，可以建立的线程数量自 然就越少，建立线程时就越容易把剩下的内存耗尽
+ * 每个线程分配到的栈内存越大，可以建立的线程数量自
+ * 然就越少，建立线程时就越容易把剩下的内存耗尽，运行时有风险，可能会导致电脑假死
  * @version: 1.0
  * @author: liaojiexin
  * @date: 2021/4/9 14:02
