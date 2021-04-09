@@ -2,12 +2,16 @@ package test;
 
 /**
  * @ClassName: JavaVMStackSOF1
- * @Description: TODO
+ * @Description: TODO 虚拟机栈和本地方法溢出溢出
  * @version: 1.0
  * @author: liaojiexin
  * @date: 2021/4/9 10:47
  */
 public class JavaVMStackSOF1 {
+    /**
+     * 定义了大量的本地变量，增大此方法帧中本地变量表的长度。
+     * 结果：抛出StackOverflowError异常，异常出现时输出的堆栈深度相应缩小。
+     */
     private static int stackLength = 0;
 
     public static void test() {
