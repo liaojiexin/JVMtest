@@ -1,4 +1,4 @@
-package test1;
+package test;
 
 /**
  * @ClassName: JavaVMStackSOF
@@ -12,8 +12,7 @@ public class JavaVMStackSOF {
     /*** VM Args：-Xss128k
      * 使用-Xss参数减少栈内存容量。
      *结果：抛出StackOverflowError异常，异常出现时输出的堆栈深度相应缩小。
-     * 定义了大量的本地变量，增大此方法帧中本地变量表的长度。
-     * 结果：抛出StackOverflowError异常，异常出现时输出的堆栈深度相应缩小。 */
+     */
     private int stackLength = 1;
 
     public void stackLeak() {
