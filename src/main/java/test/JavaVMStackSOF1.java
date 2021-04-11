@@ -10,7 +10,7 @@ package test;
 public class JavaVMStackSOF1 {
     /**
      * 定义了大量的本地变量，增大此方法帧中本地变量表的长度。
-     * 结果：抛出StackOverflowError异常，异常出现时输出的堆栈深度相应缩小。
+     * 结果：抛出StackOverflowError异常，异常出现时输出的堆栈深度相应缩小
      */
     private static int stackLength = 0;
 
